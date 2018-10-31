@@ -9,7 +9,8 @@ const URL = 'http://localhost:3000/api/upload';
 })
 export class AppComponent  implements OnInit { 
   title = 'app';
-  branch='master';
+
+  gitbranch:'master';
 
    public uploader: FileUploader = new FileUploader({url: URL, itemAlias: 'photo'});
 
